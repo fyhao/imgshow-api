@@ -1,6 +1,6 @@
 var imgshow = require('imgshow');
 
-imgshow().name('currency').p('source','yql').load(function(result) {
+imgshow().name('currency').p('from','SGD').p('to', 'SGD').load(function(result) {
 	console.log(result);
 });
 
